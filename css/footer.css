@@ -1,22 +1,46 @@
 
+@media only screen and (max-width: 360px){
+
+}
+@media only screen and (max-width: 490px) {
+
+      
+}
+@media only screen and (min-width: 491px) and (max-width: 664px) {
+
+}
+
+@media only screen and (min-width: 665px) and (max-width: 839px) {
+
+}
+
+@media only screen and (min-width: 840px) and (max-width: 972px) {
+
+}
+@media only screen and (min-width: 973px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1201px) {
 footer{
-    background-color: brown;
+
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 2fr 6fr;
     grid-template-rows: 5fr 35px;
     width: 85%;
     background-color: #f8c415;
     color: #020042;
-    gap: 15px;
+
 }
 .ubicacion{
-
+    grid-template-columns: 1/2 span;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 25px;
+
 }
 .ubicacion .ubi-text{
     margin: 10px;
@@ -51,7 +75,13 @@ footer{
         align-items: center;
         margin-left: 10px;
     }
+    .footer-pf{
 
+
+    }
+    .footer-contacto{
+
+    }
 
 }
 .footer-contacto-ul li{
@@ -87,4 +117,5 @@ footer{
 .icong{
     width: 50px;
     height: 50px;
+}
 }
