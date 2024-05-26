@@ -9,7 +9,7 @@ main{
     flex-direction: column; /* Asegura que los elementos fluyan en dirección vertical */
 
 
-
+    margin-bottom: 25px;
 }
 
 .sub {
