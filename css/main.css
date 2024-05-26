@@ -11,3 +11,13 @@ main{
 
 
 }
+
+.sub {
+    position: fixed; /* Fija el botón en la pantalla */
+    right: 15px;     /* 15px desde el borde derecho */
+    bottom: 15px;    /* 15px desde el borde inferior */
+    z-index: 10;     /* Asegura que el botón esté por encima de otros elementos */
+    padding: 10px 15px;     /* Espaciado interno para el botón */
+ /* Esquinas redondeadas */
+ background-color: #020042;
+}
