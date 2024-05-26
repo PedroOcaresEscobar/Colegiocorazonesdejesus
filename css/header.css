@@ -1,0 +1,139 @@
+
+@media only screen and (max-width: 360px){
+
+}
+@media only screen and (max-width: 490px) {
+
+      
+}
+@media only screen and (min-width: 491px) and (max-width: 664px) {
+
+}
+
+@media only screen and (min-width: 665px) and (max-width: 839px) {
+
+}
+
+@media only screen and (min-width: 840px) and (max-width: 972px) {
+
+}
+@media only screen and (min-width: 973px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1201px) {
+    html{
+        background-color: #020042;
+        
+    }
+    body {
+        display:flex;
+
+        align-items:center;
+        flex-direction: column; /* Asegura que los elementos fluyan en dirección vertical */
+
+
+
+
+
+    }
+    header{
+        display: grid;
+        grid-template-rows: 1fr 35px;
+        width: 85%;
+        margin-bottom: 35px;
+
+
+
+        
+
+    }
+    .contentedor-header-sup{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+        width: 100%;
+
+        height:100%;
+        margin: auto;
+        .prueba{
+            overflow: hidden;
+
+        }
+    }
+    
+    .contentedor-header-sup .division-logo-chs{
+        grid-column: 1/ 2span;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+
+        img{
+
+            width: 70%;
+
+        }
+
+    }
+    .contentedor-header-sup .division-carousel-chs{
+        grid-column: 2/ 3 span;
+
+        align-items: center;
+        height: 100%;
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+
+        
+        img{
+            width: 100%;
+            height:  96%;
+            flex-shrink: 0;
+            
+        }
+        
+    }
+
+
+
+    
+
+    .contentedor-header-inf{
+        text-align: center;
+        background-color: #f8c415;
+        border-radius: 10px;
+        height: 55px;
+        
+
+    }
+    .contentedor-header-inf ul{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        padding-left: 0px;
+        gap: 5px;
+        height: 55px;
+        width: 80%;
+        margin: auto;
+
+
+
+        li{
+            display: flex;
+            margin: auto;
+
+            font-style: none;
+            width: 100%;
+   
+            list-style-type: none;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poetsen One';
+
+        }   
+
+    }
+
+
+
+}
