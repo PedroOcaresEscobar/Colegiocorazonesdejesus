@@ -1,9 +1,13 @@
+
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
 @import url(main-index.css);
 @import url(main-curso.css);
-
-html{
+@import url(main-profesores.css);
+@import url(contacto.css);
+body{
     font-family: 'Poetsen One';
+    color: #020042;
+    background-color: #020042;
 }

@@ -1,0 +1,51 @@
+
+@media only screen and (max-width: 360px){
+
+}
+@media only screen and (max-width: 490px) {
+
+      
+}
+@media only screen and (min-width: 491px) and (max-width: 664px) {
+
+}
+
+@media only screen and (min-width: 665px) and (max-width: 839px) {
+
+}
+
+@media only screen and (min-width: 840px) and (max-width: 972px) {
+
+}
+@media only screen and (min-width: 973px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1201px) {
+
+
+    .primeras-card-img .perfil-profesor{
+        border-radius: 100%;
+   margin-left: 25px;
+        width: 280px;
+        height: 280px;
+
+    }
+    .contenedor-profesor-card{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        background-color: #f8c415;
+        border-radius: 30px;
+        width: 100%;
+    
+    }
+    .primeras-card-profesor{
+        text-align: center;
+        color: #020042;
+    }
+}

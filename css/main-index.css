@@ -1,3 +1,4 @@
+
 .contentedor-carousel-index{
     align-items: center;
     overflow: hidden;
@@ -10,7 +11,7 @@
 
     display: flex;
     transition: transform 0.5s ease-in-out;
-    height: 700px;
+    height: 350px;
 
 }
 .carousel-index     img{
@@ -37,7 +38,7 @@
 }
 .primeras-card-txt{
     width: 500px;
-    color: #020042;;
+    color: #020042;
     padding: 20px;
 
 
@@ -65,4 +66,40 @@
 
 
 
+}.contentedor-carousel-index {
+    position: relative;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.carousel-index {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-index img {
+    width: 100%;
+}
+body{
+    font-family: 'Poetsen One';
+    color: #020042;
+    background-color: #020042;
 }
