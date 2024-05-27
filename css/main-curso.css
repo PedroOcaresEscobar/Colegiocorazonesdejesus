@@ -1,0 +1,78 @@
+
+@media only screen and (max-width: 360px){
+
+}
+@media only screen and (max-width: 490px) {
+
+      
+}
+@media only screen and (min-width: 491px) and (max-width: 664px) {
+
+}
+
+@media only screen and (min-width: 665px) and (max-width: 839px) {
+
+}
+
+@media only screen and (min-width: 840px) and (max-width: 972px) {
+
+}
+@media only screen and (min-width: 973px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1201px) {
+.zone-card-curso{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1.5vw;
+
+
+}
+.contenedor-card-curso{
+
+}
+.card-curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width:13vw;
+    background-color:#f8c415;
+    color: #020042;
+    padding: 15px;
+    border-radius: 20px;
+    height: 300px;
+    text-align: center;
+    img{
+        width: 100px;
+    }
+
+}
+.card-curso:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.btn-entrar{
+
+    background-color: #020042;
+    border-radius: 5px;
+    border: 0px none ;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    bottom: 20px;
+
+}
+.btn-entrar:hover{
+   color: #f8c415;
+   border: 1px solid white;
+}
+}

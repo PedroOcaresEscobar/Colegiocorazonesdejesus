@@ -103,4 +103,13 @@
         color: #f8c415; /* Si deseas cambiar el color del texto también */
         height: 100%;
     }
+    a {
+        color: inherit; /* Hereda el color del elemento padre */
+        text-decoration: none; /* Quita el subrayado */
+    }
+    
+    a:hover {
+        color: inherit; /* Mantiene el color al pasar el cursor */
+        text-decoration: none; /* Mantiene sin subrayado al pasar el cursor */
+    }
 }
