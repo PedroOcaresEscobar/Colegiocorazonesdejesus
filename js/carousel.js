@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('.division-carousel-chs').style.transform = `translateX(-${paginaActual * 100}%)`;
     }
     setInterval(carousel, 2000);
+    
 
 });
 

@@ -2,13 +2,113 @@
 @media only screen and (max-width: 360px){
 
 }
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 600px) {
+    main{}
+    .contentedor-header-sup{
 
-      
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height:100%;
+
+        .prueba{
+            overflow: hidden;
+        }
+    }
+    
+    .contentedor-header-sup .division-logo-chs{
+        display: none;
+
+
+    }
+    .contentedor-header-sup .division-carousel-chs{
+        
+        align-items: center;
+
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        margin-top: 8vh;
+    img{
+            width: 100%;
+
+            flex-shrink: 0;
+ 
+        }
+    }
+   
+    .contentedor-header-inf{
+        display: none;
+    }
+    #navmobile{
+        background-color: #020042;
+    }
+
+    .container-fluid{
+        background-color: #f8c415;
+        margin: -10px 0px -10px 0px;
+    }
+    .navbar-brand{
+        margin: auto;
+        font-size: medium;
+
+
+    }
+a{
+    color: #f8c415;
 }
+.offcanvas.offcanvas-end{
+    width: 80%;
+}
+    .logo-cel{
+        width: 40px;
+        height:40px;
+        margin: 5px;
+
+   }
+   .offcanvas-header{
+    background-color: #f8c415;
+    color: #020042;
+
+   }
+
+   
+   .offcanvas-title{
+    margin-left: auto;
+    font-size: medium;
+   }
+    #MODAL-MENU{
+        background-color: #020042;
+        display: grid;
+        margin-top: auto;
+ 
+
+
+    }
+
+    .navbar-nav .nav-link.active {
+        color:  #f8c415;/* Cambia esto al color que desees */
+        margin-top: 10px;
+        margin-left: 15px;
+
+    }
+    .navbar-nav .nav-link.active:hover {
+        background-color: #f8c415;
+        color: #020042;
+
+
+        
+    }
+    .logo_nav{
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+
 @media only screen and (min-width: 491px) and (max-width: 664px) {
-
+    
 }
+
 
 @media only screen and (min-width: 665px) and (max-width: 839px) {
 
@@ -36,6 +136,9 @@
         grid-template-rows: 1fr 35px;
         width: 85%;
         margin-bottom: 35px;
+        #navmobile{
+            display: none;
+        }
     }
     .contentedor-header-sup{
         display: grid;
@@ -54,9 +157,15 @@
         justify-content: center;
         align-items: center;
         img{
-            width: 70%;
+            width: 150px;
 
         }
+        img:hover{
+
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+
+        }            transition: transform 0.3s ease;
 
     }
     .contentedor-header-sup .division-carousel-chs{
@@ -70,7 +179,7 @@
             width: 100%;
             height:  96%;
             flex-shrink: 0;
- 
+            border:4px solid #f8c415;
         }
     }
     .contentedor-header-inf{

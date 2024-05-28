@@ -1,11 +1,5 @@
 
-.contentedor-carousel-index{
-    align-items: center;
-    overflow: hidden;
 
-    
-
-}
 .carousel-index {
     align-items: center;
 
@@ -66,8 +60,15 @@
 
 
 
-}.contentedor-carousel-index {
+}
+.contentedor-carousel-index{
+    align-items: center;
+    overflow: hidden;
     position: relative;
+
+    margin-top: 0px;
+
+
 }
 
 .carousel-btn {
@@ -97,9 +98,118 @@
 
 .carousel-index img {
     width: 100%;
+    height: auto;
 }
-body{
-    font-family: 'Poetsen One';
-    color: #020042;
-    background-color: #020042;
+
+
+
+@media only screen and (max-width: 360px){
+
+}
+@media only screen and (max-width: 600px) {
+    .contentedor-carousel-index{
+        align-items: start;
+        overflow: hidden;
+        position: relative;
+        
+        margin-bottom: -90px;
+        margin-top: -90px;
+    
+    
+    }
+    
+    .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    
+        background-color: transparent;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    
+    .prev-btn {
+        left: 10px;
+        opacity: 0.4;
+
+    }
+    
+    .next-btn {
+        right: 10px;
+        opacity: 0.4;
+    }
+    
+    .carousel-index {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .carousel-index img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    /* CARDS */
+
+    .contenedor-primeras-card {
+        display: flex;
+        flex-direction: column; /* Cambiamos el flujo de flexión a columnas */
+        justify-content: center;
+        align-items: center;
+        gap: 25px; /* Espaciado entre las cards */
+        margin-bottom: 25px;
+        margin-top: 25px;
+        background-color: #f8c415;
+        border-radius: 30px;
+        width: 100%;
+    }
+    
+    .primeras-card-txt {
+        width: 100%; /* Cambiamos el ancho para que se ajuste al contenedor */
+        color: #020042;
+        padding: 20px;
+        h2{
+            text-align: center;
+        }
+    }
+    
+    .primeras-card-img img {
+        width: 100%; /* Ajustamos el ancho de la imagen para que se ajuste al contenedor */
+        height: auto; /* Establecemos la altura automática */
+        border-radius: 20px;
+        border: 10px solid #020042;
+        margin: 20px 0; /* Ajustamos el margen superior e inferior */
+        box-shadow: 15px  15px 15px rgba(0, 0, 0, 0.7);
+    }
+    
+    .primeras-card-img {
+        width: 100%; /* Ajustamos el ancho para que se ajuste al contenedor */
+        overflow: visible;
+        margin-top: auto;
+        margin-bottom: 30px;
+        width: 300px;
+
+    }
+}
+@media only screen and (min-width: 491px) and (max-width: 664px) {
+
+}
+
+@media only screen and (min-width: 665px) and (max-width: 839px) {
+
+}
+
+@media only screen and (min-width: 840px) and (max-width: 972px) {
+
+}
+@media only screen and (min-width: 973px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1201px) {
+
+
 }

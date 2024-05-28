@@ -17,17 +17,73 @@
 <body>
 
     <header>
+        <section id="navmobile">
+            <nav id="xd" class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                    <!-- Título y botón de menú -->
+                    <a class="navbar-brand" href="#"><img class="logo-cel" src="img/logo-ccdj.png" alt="">Colegio Corazones de Jesús</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Menú desplegable para dispositivos móviles -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <!-- Título del menú -->
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Colegio Corazones de Jesús</h5>
+                            <!-- Botón para cerrar el menú -->
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <!-- Cuerpo del menú desplegable -->
+                        <div id="MODAL-MENU" class="offcanvas-body">
+                            <!-- Enlaces del menú -->
+                            <ul  class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <!-- Enlaces del navbar de escritorio -->
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="page/cursos.html">CURSOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="page/talleres.html">TALLERES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="page/plataformas.html">PLATAFORMAS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="page/profesores.html">EQUIPO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="page/biblioteca.html">BIBLIOTECA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="page/nosotros.html">NOSOTROS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="page/contacto.html">CONTACTO</a>
+                                </li>
+                            </ul>
+                            <!-- Logo de la página -->
+                            <img class="logo_nav" src="img/logo-ccdj.png" alt="Logo Corazones de Jesús">
+                        </div>
+                    </div>
+                </div>
+        
+        
+                </div>
+        
+            </nav>
+        </section>
         <section class="contentedor-header-sup">
             <div class="division-logo-chs">
-                <img src="img/logo-ccdj.png" alt="logo corazones de Jesus">
+                <a href="index.html"><img src="img/logo-ccdj.png" alt="logo corazones de Jesus"></a>
             </div>
             <div class="prueba">
                 <div class="division-carousel-chs">
-                    <img src="img/1.png" alt="">
-                    <img src="img/3.png" alt="">
-                    <img src="img/2.png" alt="">
-                    <img src="img/4.png" alt="">
-
+                    <img src="img/bannerx150 (1).png" alt="">
+                    <img src="img/bannerx150 (2).png" alt="">
+                    <img src="img/bannerx150 (3).png" alt="">
+                    <img src="img/bannerx150 (4).png" alt="">
     
                 </div>
 
@@ -52,6 +108,10 @@
                 </ul>
             </div>
         </section>
+       
+       <!-- Sección de navegación para dispositivos móviles -->
+
+
     </header>
 
 
@@ -63,11 +123,11 @@
         <section class="contentedor-carousel-index">
             <button class="carousel-btn prev-btn"><img src="img/preview-icon.png" alt=""></button>
             <div class="carousel-index">
-                <img src="img/carindex (1).jpg" alt="">
-                <img src="img/carindex (2).jpg" alt="">
-                <img src="img/carindex (3).jpg" alt="">
-                <img src="img/carindex (4).jpg" alt="">
-                <img src="img/carindex (5).jpg" alt="">
+                <img src="img/carousel new.png" alt="">
+                <img src="img/carousel new2.png" alt="">
+                <img src="img/carousel new3.png" alt="">
+                <img src="img/carousel new4.png" alt="">
+
             </div>
             <button class="carousel-btn next-btn"><img src="img/next-icon.png" alt=""></button>
         </section>
@@ -141,6 +201,8 @@
                 <h4>Carlos Dittborn 1807, Lo Espejo, Región Metropolitana</h4>
             </div>
         </section>
+
+
         <section class="footer2">
             <div class="footer-pf">
                 <h2>Preguntas Frecuentes</h2>
@@ -175,6 +237,8 @@
             </div>
 
         </section>
+
+        
         <section class="footer3">
             <h5>© 2024 Colegio Corazones de Jesus | Todos los derechos reservados
 
@@ -185,6 +249,8 @@
     <script src="js/carousel.js"></script>  
     <script src="js/carousel-index.js"></script>  
     <section class="sub" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"><a href=""><img src="img/up-icon.png" alt=""></a></section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
 
 </html>

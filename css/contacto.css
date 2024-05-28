@@ -1,4 +1,29 @@
-.contactanosConten{
+
+@media only screen and (max-width: 360px){
+
+}
+@media only screen and (max-width: 490px) {
+
+      
+}
+@media only screen and (min-width: 491px) and (max-width: 664px) {
+
+}
+
+@media only screen and (min-width: 665px) and (max-width: 839px) {
+
+}
+
+@media only screen and (min-width: 840px) and (max-width: 972px) {
+
+}
+@media only screen and (min-width: 973px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1201px) {
+
+    .contactanosConten{
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -51,4 +76,15 @@ body{
     color: #f8c415;
     font-family: 'Poetsen One';
     bottom: 20px;
+}
+.btn-contacto:hover{
+    color:#020042;
+    background-color: #f8c415;
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+}
+body{
+    font-family: 'Poetsen One';
+    color: #020042;
+}
 }
