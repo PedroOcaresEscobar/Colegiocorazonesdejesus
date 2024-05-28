@@ -1,31 +1,90 @@
 <!DOCTYPE html>
-<html lang="es">
+<html  lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/carousel-index.js"></script>  
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
 
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&display=swap" rel="stylesheet">
-    <title>Profesores - Corazones de Jesus</title>
+    <title>Docentes - Corazones de Jesus</title>
 
 </head>
 <body>
 
     <header>
+        <section id="navmobile">
+            <nav id="xd" class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                    <!-- Título y botón de menú -->
+                    <a class="navbar-brand" href="#"><img class="logo-cel" src="../img/logo-ccdj.png" alt="">Colegio Corazones de Jesús</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Menú desplegable para dispositivos móviles -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <!-- Título del menú -->
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Colegio Corazones de Jesús</h5>
+                            <!-- Botón para cerrar el menú -->
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <!-- Cuerpo del menú desplegable -->
+                        <div id="MODAL-MENU" class="offcanvas-body">
+                            <!-- Enlaces del menú -->
+                            <ul  class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <!-- Enlaces del navbar de escritorio -->
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="cursos.html">CURSOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="talleres.html">TALLERES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="plataformas.html">PLATAFORMAS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="profesores.html">EQUIPO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="biblioteca.html">BIBLIOTECA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="contacto.html">CONTACTO</a>
+                                </li>
+                            </ul>
+                            <!-- Logo de la página -->
+                            <img class="logo_nav" src="../img/logo-ccdj.png" alt="Logo Corazones de Jesús">
+                        </div>
+                    </div>
+                </div>
+        
+        
+                </div>
+        
+            </nav>
+        </section>
         <section class="contentedor-header-sup">
             <div class="division-logo-chs">
-                <img src="../img/logo-ccdj.png" alt="logo corazones de Jesus">
+                <a href="../index.html"><img src="../img/logo-ccdj.png" alt="logo corazones de Jesus"></a>
             </div>
             <div class="prueba">
                 <div class="division-carousel-chs">
-                    <img src="../img/1.png" alt="">
-                    <img src="../img/3.png" alt="">
-                    <img src="../img/2.png" alt="">
-                    <img src="../img/4.png" alt="">
-
+                    <img src="../img/bannerx150 (1).png" alt="">
+                    <img src="../img/bannerx150 (2).png" alt="">
+                    <img src="../img/bannerx150 (3).png" alt="">
+                    <img src="../img/bannerx150 (4).png" alt="">
     
                 </div>
 
@@ -42,14 +101,20 @@
                     <li><a href="cursos.html">CURSOS</a></li>
                     <li><a href="talleres.html">TALLERES</a></li>
                     <li><a href="plataformas.html">PLATAFORMAS</a></li>
-                    <li><a href="profesores.html">EQUIPO</a></li>
+                    <li><a href="profesores.html">EQUIPO</a></li>               
                     <li><a href="biblioteca.html">BIBLIOTECA</a></li>
                     <li><a href="nosotros.html">NOSOTROS</a></li>
                     <li><a href="contacto.html">CONTACTO</a></li>
                 </ul>
             </div>
         </section>
+       
+       <!-- Sección de navegación para dispositivos móviles -->
+
+
     </header>
+
+
 
 
 
@@ -186,6 +251,8 @@
                 <h4>Carlos Dittborn 1807, Lo Espejo, Región Metropolitana</h4>
             </div>
         </section>
+
+
         <section class="footer2">
             <div class="footer-pf">
                 <h2>Preguntas Frecuentes</h2>
@@ -220,6 +287,8 @@
             </div>
 
         </section>
+
+        
         <section class="footer3">
             <h5>© 2024 Colegio Corazones de Jesus | Todos los derechos reservados
 
@@ -228,8 +297,8 @@
     </footer>
 
     <script src="../js/carousel.js"></script>  
-
-    <section class="sub" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"><a href=""><img src="img/up-icon.png" alt=""></a></section>
+    <section class="sub" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"><a href=""><img src="../img/up-icon.png" alt=""></a></section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 
 </html>
