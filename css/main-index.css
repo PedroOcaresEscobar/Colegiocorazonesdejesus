@@ -126,6 +126,30 @@
 
 
 }
+    .dropdown-menu{
+        background-color: #f8c415;
+
+        
+    }
+    .dropdown-item{
+        color: #021a85;
+        
+    }
+    #cursos-menu2 {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+    
+    #cursosdesplegar.show #cursos-menu2 {
+        display: block;
+    }
+
+ 
 
 
 @media only screen and (max-width: 360px){
@@ -246,7 +270,19 @@
         margin-bottom: 30px;
 
 
+        
     }
+    .dropdown-menu{
+        background-color: #f8c415;
+
+        
+    }
+    .dropdown-item{
+        color: #021a85;
+        
+    }
+
+    
 }
 @media only screen and (min-width: 491px) and (max-width: 664px) {
 
@@ -319,6 +355,7 @@
     
     
     }
+    
 
     
 }
