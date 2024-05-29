@@ -25,12 +25,15 @@ main{
     border-radius: 100%;
  }
 
-
+ #020042;
 }
 .sub:hover{
     img{
-        background-color: red;
+        background-color:  #020042;
         border-radius: 100%;
+        border:2px solid #f8c415;
+        
+        
      }
 
 }
@@ -52,7 +55,7 @@ main{
 
     }
     .sub {
-        opacity: 0.6;
+        opacity: 0.4;
         position: fixed; /* Fija el botón en la pantalla */
         right: 15px;     /* 15px desde el borde derecho */
         bottom: 55px;    /* 15px desde el borde inferior */
@@ -67,9 +70,12 @@ main{
     
     }
     .sub:hover{
+        opacity: 3;
         img{
-            background-color: red;
+
+            background-color:  #020042;
             border-radius: 100%;
+            border:2px solid #f8c415;
          }
 
     }

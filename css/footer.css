@@ -62,8 +62,11 @@
     }
     
     .footer2 .rrss {
-        justify-content: center;
-        align-items: center;
+
+        margin-left: -20px;
+
+        width: 100%;
+justify-content: center;
  
     }
     
@@ -75,6 +78,9 @@
         margin-top: auto;
         background-color: #f8c415;
         border-top: 5px dashed #020042;
+        h5{
+            font-size: small;
+        }
     }
     .footer-contacto{
         margin-top: 10vh;
@@ -158,7 +164,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 15px 15px 15px 0px;
-        
+        margin: auto;
         h2{
             text-align: center;
             font-size: large;
@@ -173,7 +179,8 @@
         .rrss{
             justify-content: center;
             align-items: center;
-            margin-left: 10px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .footer-contacto{
@@ -202,7 +209,7 @@
         background-color: #f8c415;
     
         border-top:5px  dashed #020042;
-        
+
     
     
     
