@@ -1,12 +1,19 @@
+.contenedor-contenedores-profesores {
+
+    display: flex;
+    justify-content: center;
+}
+
 .contenedordeContenedordeCard {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* centra los elementos horizontalmente */
-    gap:25px;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center; /* Alinea los elementos al principio de la fila */
+    gap: 25px;
     margin-top: 25px;
+    width: 100%; /* Puedes ajustar este ancho según sea necesario */
+    max-width: 1200px; /* Ajusta el ancho máximo para centrar el contenido */
 }
+
 .primeras-card-img{
     width: auto;    
     margin-left: auto;
@@ -56,7 +63,24 @@
     }
 
 }
+.primeras-card-img{
+    width: auto;    
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+    padding: 15px;
+}
+.primeras-card-img:hover{
+    transform: scale(1.4);
+    transition: transform 0.3s;
+}
+.primeras-card-img .perfil-profesor{
+    border-radius: 100%;
 
+    width: 160px;
+    height: 160px;
+
+}
 
 
 
@@ -96,132 +120,7 @@
 
 
 }
-@media only screen and (min-width: 1401px){
-    .contenedordeContenedordeCard {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start; /* alinea los elementos a la izquierda */
-        gap: 2vw; /* espacio entre las tarjetas */
 
-        margin-top: 25px;
-        margin-left: auto;
-        margin-right: auto; /* centrado horizontal automático */
-    }
-    
-    .contenedor-contenedores-profesores {
-        display: flex;
-        justify-content: center; /* centra el contenido internamente */
-        align-items: center;
 
-    }
-    
-    .contenedor-profesor-card {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        background-color: #f8c415;
-        border-radius: 30px;
-        width: calc(33.333% - 25px); /* ajusta el ancho de las tarjetas considerando el gap */
-        height: 35vw;
-        box-sizing: border-box; /* incluye padding y border en el cálculo del ancho */
-    }
-    
-    .primeras-card-profesor h2 {
-        font-size: 2vw
-    }
-    .primeras-card-profesor h4 {
-        font-size: 1vw
-    }
-    .primeras-card-profesor h3 {
-        font-size: 1vw
-    }
-    .primeras-card-profesor p {
-        font-size: 1vw
 
-    }
-}
-.primeras-card-img{
-    width: auto;    
-    margin-left: auto;
-    margin-right: auto;
-    overflow: visible;
-    padding: 15px;
-}
-.primeras-card-img:hover{
-    transform: scale(1.4);
-    transition: transform 0.3s;
-}
-.primeras-card-img .perfil-profesor{
-    border-radius: 100%;
 
-    width: 160px;
-    height: 160px;
-
-}
-
-@media only screen and (min-width: 1701px) {
-    .contenedordeContenedordeCard {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start; /* alinea los elementos a la izquierda */
-        gap: 1.5vw; /* espacio entre las tarjetas */
-
-        margin-top: 25px;
-        margin-left: auto;
-        margin-right: auto; /* centrado horizontal automático */
-    }
-    
-    .contenedor-contenedores-profesores {
-        display: flex;
-        justify-content: center; /* centra el contenido internamente */
-        align-items: center;
-
-    }
-    
-    .contenedor-profesor-card {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        background-color: #f8c415;
-        border-radius: 30px;
-        width: calc(33.333% - 25px); /* ajusta el ancho de las tarjetas considerando el gap */
-        height: 25vw;
-        box-sizing: border-box; /* incluye padding y border en el cálculo del ancho */
-    }
-    
-    .primeras-card-profesor h2 {
-        font-size: 2vw
-    }
-    .primeras-card-profesor h4 {
-        font-size: 1vw
-    }
-    .primeras-card-profesor h3 {
-        font-size: 1vw
-    }
-    .primeras-card-profesor p {
-        font-size: 1vw
-
-    }
-}
-.primeras-card-img{
-    width: auto;    
-    margin-left: auto;
-    margin-right: auto;
-    overflow: visible;
-    padding: 15px;
-}
-.primeras-card-img:hover{
-    transform: scale(1.4);
-    transition: transform 0.3s;
-}
-.primeras-card-img .perfil-profesor{
-    border-radius: 100%;
-
-    width: 160px;
-    height: 160px;
-
-}
